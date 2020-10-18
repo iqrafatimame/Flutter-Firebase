@@ -10,4 +10,4 @@
 - [ ] Sign In with Email & Password
 - [ ] Sign up with Email and Password
 - [ ] Sign-out
-- [ ] Hoem Screen
+- [ ] Home Screen
