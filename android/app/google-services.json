@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "182582111864",
+    "firebase_url": "https://flutterauth-f96bb.firebaseio.com",
+    "project_id": "flutterauth-f96bb",
+    "storage_bucket": "flutterauth-f96bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182582111864:android:07a24b933f6d6fdedbc78d",
+        "android_client_info": {
+          "package_name": "com.iqrafatimame.SignIn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182582111864-8bbev6s9kc3jmhso72u2ivqp51ad424n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgqLKpGj7RCdfjZgK7gACnN2DW8SPjFqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182582111864-8bbev6s9kc3jmhso72u2ivqp51ad424n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
