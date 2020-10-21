@@ -8,7 +8,7 @@ class AuthService {
 
   // create user obj from FirebaseUser
   User _userFromFirebaseUser(FirebaseUser user) {
-    return User != null ? User(uid: user.uid) : null;
+    return User != null ? User(uid: user.uid) : 'no user';
   }
 
   // Auth change user stream
@@ -19,7 +19,7 @@ class AuthService {
   }
 
   // 1: Sign in anonymously
-  Future signInAnon() async {
+  Future<User> signInAnon() async {
     try {
       AuthResult result = await _auth.signInAnonymously();
       FirebaseUser user = result.user;
@@ -34,5 +34,12 @@ class AuthService {
   //3: Register with Email and Password
 
   //4: Signout
-
+  Future signOut() async {
+    try {
+      return await _auth.signOut();
+    } catch (e) {
+      print(e.toString());
+      return null;
+    }
+  }
 }
