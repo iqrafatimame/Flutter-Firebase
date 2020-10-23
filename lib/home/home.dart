@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text("Welcome!"),
-        backgroundColor: Colors.red,
+        backgroundColor: Color(0xff01A0C7),
         elevation: 0.0,
         actions: <Widget>[
           Padding(
